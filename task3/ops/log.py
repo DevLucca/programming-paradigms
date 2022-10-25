@@ -11,3 +11,6 @@ class Log:
         self.__operand = float(input("Please, input first number: ")) if last_value == None else last_value
 
         return self
+
+    def get_operands(self):
+        return f"log2 {self.__operand}"
